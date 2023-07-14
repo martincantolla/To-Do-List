@@ -1,0 +1,57 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10em;
+    background-color:  rgb(226, 199, 186);
+}
+
+h2{
+    border-bottom: solid rgba(0, 0, 0, 0.817) 1px;
+    background-color:  rgb(226, 199, 186);
+    padding: 1em;
+    margin: 0px;
+}
+
+section{
+    background-color:  rgb(226, 199, 186);
+    padding: 1em;
+    
+}
+
+.seccion_boton{
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+}
+.input_largo{
+    flex-grow: 1;
+    width: 70%;
+    height: 2.4em;
+}
+.seccion_boton button{
+    margin: 1em;
+    height: 2.4em;
+}
+
+.seccion_datos{
+    display: flex;
+   
+}
+
+.column1{
+    flex-direction: column;
+    width: 40%;
+}
+.column2{
+    width: 60%;
+    margin: 1em;
+}
+th{
+    padding-bottom: 0.5em;
+}
+td{
+    padding: 0.5em;
+}
+
+.realizada {
+    color: rgba(0, 0, 0, 0.26);
+  }

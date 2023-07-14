@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <h2>Todo List</h2>
+    <section>
+
+        <p>Nueva Tarea:</p>
+
+        <div class="seccion_boton">
+            <input placeholder="Escriba su tarea aquí" class="input_largo" type="text">
+            <button id="botonAgregar">Agregar</button>
+        </div>
+
+        <div class="seccion_datos">
+
+            <div class="column1">
+                <p>Total: <span id="total"></span></p>
+                <p>Realizadas: <span id="realizadas"></span></p>
+            </div>
+
+            <div class="column2">
+                <table id="tablaTareas">
+                    <tr>
+                        <th>ID</th>
+                        <th>Tareas</th>
+                    </tr>
+
+                </table>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
